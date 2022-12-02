@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview 2</title>
+</head>
+<body>
+   <h1>Interview Questions Day 2</h1>
+   <h3>Q9. Explain br tags</h3>
+   <p> The br tag inserts a single line break.  The br tag is an empty tag which means that it has no end tag.</p>
+
+<h3>Q10. Explain how many different types of lists we have in html </h3>
+<p>There are 2 types of lists in HTML, namely: Unordered List, Ordered List</p>
+<p>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li &gt; tag.<br>
+ The list items will be marked with bullets by default.</p>
+ <ul>
+    <li>Mango</li>
+    <li>Litchi</li>
+    <li>Watermelon</li>
+ </ul>
+     <p>An ordered list starts with the ol tag. Each list item starts with the li tag.The list items will be marked with numbers by default:</p>
+    <ol>
+    <li>Mango</li>
+    <li>Litchi</li>
+    <li>Watermelon</li>
+    </ol>
+
+<h3>Q11.What are semantic tags</h3>
+<p>The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. </p>
+
+
+<h3>Q12. Write code to create an ordered list with roman numbers?</h3>
+<p>type="I"	The list items will be numbered with uppercase roman numbers</p>
+<ol type="I">  
+     <li>Portugal</li>
+     <li>Argentina</li>
+     <li>France</li>
+     <li>Germany</li>
+     <li>Denmark</li>
+    </ol>
+ 
+<h3>Q13. Write code to create an unordered list with circle </h3>
+<p>Given below is an example to create an unordered list with circle bullets in HTML</p>
+<ul>
+    <li> Portugual</li>
+    <li> Argentina </li>
+    <li> France </li>
+    <li>Germany</li>
+    <li>Sweden</li>
+</ul>
+
+<h3> Q14. Write code to create a link to https://www.prepbytes.com</h3>
+<a href="https://www.prepbytes.com/"> Prepbytes </a>
+
+<h3>Q15. Write a code to insert an image</h3>
+<img src="./Ronaldo.jpg" alt="CRISTIANO RONALDO" width="200px">
+
+
+<h3>Q16. Create a form contain input fields like name age email and contact</h3>
+<label for="name">Name:</label>
+<input type="text" placeholder="Name" id="name" name="name" value=""><br><br>
+<label for="gmail">Email Address:</label>
+<input type="text" placeholder="Email" required id="gmail"  name="gmail" value=""><br><br>
+<label for="password">Password:</label>
+<input type="text" placeholder="Password" id="password" name="password" value=""><br><br>
+
+<h3>Q17. Create a table and explain how to acheive colspan</h3>
+<p>To make a cell span over multiple columns, use the colspan attribute.</p>
+<table border="3">
+    <thead>
+        <th> Name</th>
+        <th colspan="2">Country</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Hritik</td>
+            <td>Portugal</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Rajan</td>
+            <td>Brazil</td>
+            <td>Pakistan</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Q18.Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two</h3>
+<p> Below is the output of radio button:</p>
+<lable for="course"> Course : </lable>
+<input type="radio" name="Course" value="MERN" id="course">MERN
+<input type="radio" name="Course" value="MEAN"id="course">MEAN
+<br><br>
+<p> This is a checkbox:</p>
+<lable for="Technology"> Technology : </lable> <br>
+            <input type="checkbox" name="HTML"  value="HTML">HTML<br>
+            <input type="checkbox" name="CSS" value="CSS">CSS<br>
+            <input type="checkbox" name="REACT" value="REACT">REACT<br>
+            <input type="checkbox" name="NODE">NODE<br><br>
+</form>
+<br>
+</body>
+</html>
